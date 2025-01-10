@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./hero-bg.png);
+	background-image: url(bg1.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -289,9 +289,9 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	padding: 30px;
+	padding: 20px;
 	border-radius: 10px;
-	background-image: url(./img-1.png);
+	background-image: url(img-1.png);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -317,7 +317,7 @@ p {
 #services .service-item h2 {
 	font-size: 2rem;
 	color: white;
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 	text-transform: uppercase;
 }
 #services .service-item p {
@@ -365,15 +365,18 @@ p {
 }
 #projects .project-info h1 {
 	font-size: 4rem;
-	font-weight: 500;
+	font-weight: bold;
+	text-align: center;
 }
 #projects .project-info h2 {
-	font-size: 1.8rem;
-	font-weight: 500;
+	font-size: 1.6rem;
+	font-weight: bold;
 	margin-top: 10px;
 }
 #projects .project-info p {
 	color: white;
+	font-size: 1.5rem;
+	margin-top: 12px;
 }
 #projects .project-img {
 	flex-basis: 50%;
@@ -389,7 +392,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.7;
+	opacity: 0.2;
 }
 #projects .project-img img {
 	transition: 0.3s ease transform;
@@ -413,6 +416,9 @@ p {
 }
 #about .col-right {
 	width: 100%;
+}
+#about .col-right h1{
+  font-weight: bold;
 }
 #about .col-right h2 {
 	font-size: 1.8rem;
